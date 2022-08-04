@@ -36,6 +36,7 @@ h1 {
   border-style: solid;
   border-width: 1px;
   border-color: #232328;
+  border-radius: 20px 0px 0px 20px;
   position: relative;
   top: -100px;
   width: 770px;
@@ -43,7 +44,7 @@ h1 {
   left: -200px;
   right: 0px;
   margin: auto;
-  background-color: #18181d88;
+  background-color: #18181D;
   text-align: center;
 }
 
@@ -139,7 +140,7 @@ ul {
   border-color: #232328;
   border-right-width: 1px;
   border-right-style: solid;
-  padding: 10px 25px;
+  padding: 5px 5px;
   transition: all 0.8s;
   cursor: default;
   list-style-type: none;
@@ -151,10 +152,26 @@ ul:last-of-type {
 
 ul:hover {
   color: #FFFFFF;
+  background-color: #fefffa07;
+  border-radius: 15px;
 }
 
 ul > li:first-of-type{
   padding-top: 5px;
+}
+
+ul > li {
+  width: 130px;
+  height: 25px;
+  padding: 5px;
+  /*background-color: #5f5f5f28;*/
+  border-radius: 2px;
+}
+
+ul > li:hover {
+  background-color: #18181D;
+  border-radius: 10px;
+  transition: all 0.8s;
 }
 
 ul > li > a {
